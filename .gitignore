@@ -39,6 +39,3 @@ tmp/
 
 # Environment Variables
 .env
-
-# Ignore Streamlit configuration directory
-.streamlit
