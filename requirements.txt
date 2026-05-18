@@ -1,0 +1,24 @@
+# Frontend
+streamlit      # Web app UI
+
+# Utilities
+numpy          # Numerical operations
+pandas         # Data handling
+
+# Face Recognition & AI
+scikit-learn   # ML utilities
+dlib-bin       # Face detection
+git+https://github.com/ageitgey/face_recognition_models  # Face recognition models
+setuptools     # Package support
+
+# Backend & Security
+supabase       # Database/backend
+bcrypt         # Password hashing
+
+# QR & Image Processing
+segno          # QR code generation
+pillow         # Image processing
+
+# Audio & Voice Recognition
+librosa        # Audio processing
+resemblyzer     # Voice recognition
