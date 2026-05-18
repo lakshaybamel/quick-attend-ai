@@ -9,7 +9,7 @@ pandas         # Data handling
 scikit-learn   # ML utilities
 dlib-bin       # Face detection
 git+https://github.com/ageitgey/face_recognition_models  # Face recognition models
-setuptools     # Package support
+setuptools<70.0.0     # Package support
 
 # Backend & Security
 supabase       # Database/backend
