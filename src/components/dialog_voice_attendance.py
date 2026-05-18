@@ -9,10 +9,9 @@ from datetime import datetime
 @st.dialog("Voice Attendance")
 def voice_attendance_dialog(selected_subject_id):
     st.write(
-        "In this dialog, you can record classroom audio to automatically identify which enrolled students are present based on their voice profiles. Please ensure that the students have registered their voice embeddings for accurate identification."
+        "Record classroom audio while students say 'I am present'. "
+        "AI will identify enrolled students using their voice profiles."
     )
-
-    audio_data = None
 
     audio_data = st.audio_input("Record classroom audio here")
 
@@ -39,6 +38,10 @@ def voice_attendance_dialog(selected_subject_id):
                 st.error(
                     "No enrolled students have registered voice embeddings. Unable to perform voice attendance."
                 )
+                return
+
+            if not audio_data:
+                st.warning("Please record classroom audio first.")
                 return
 
             audio_bytes = audio_data.read()
