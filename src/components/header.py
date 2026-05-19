@@ -1,14 +1,14 @@
 import streamlit as st
 
-LOGO_URL = "https://i.ibb.co/Y7RhZHfF/Quick-Attend-Logo.png"
+LOGO_URL = "https://i.ibb.co/Zp1bpfK3/logo.png"
 
 
 def header_home():
     st.markdown(
         f"""
         <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 30px; margin-top: 30px;">
-            <img src="{LOGO_URL}" style="height: 125px;" />
-            <h1 style="text-align: center; color:#E0E3FF">QUICK&ensp;<br />ATTEND</h1>
+            <img src="{LOGO_URL}" style="height: 130px;" />
+            <h1 style="text-align: center; color:#E0E3FF">QUICK&ensp;<br/>ATTEND</h1>
         </div>
         """,
         unsafe_allow_html=True,

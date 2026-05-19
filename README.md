@@ -1,7 +1,7 @@
 # 🚀 Quick Attend
 
 <p align="center">
-  <img src="https://i.ibb.co/Y7RhZHfF/Quick-Attend-Logo.png" width="150" alt="QuickAttend Logo"/>
+  <img src="https://i.ibb.co/Zp1bpfK3/logo.png" width="100" alt="QuickAttend Logo"/>
 </p>
 
 <h3 align="center">

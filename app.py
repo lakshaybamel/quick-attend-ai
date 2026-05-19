@@ -8,8 +8,8 @@ from src.components.dialog_auto_enroll import auto_enroll_dialog
 def main():
 
     st.set_page_config(
-        page_title="QuickAttend - Smart Attendance Management System",
-        page_icon="https://i.ibb.co/Y7RhZHfF/Quick-Attend-Logo.png",
+        page_title="QuickAttend | AI-Powered Attendance System",
+        page_icon="https://i.ibb.co/Zp1bpfK3/logo.png",
     )
 
     if "login_type" not in st.session_state:
